@@ -1,0 +1,115 @@
+1	Say Hello to HTML Elements Incomplete
+<h1>Hello World</h1>
+
+2	Headline with the h2 Element Incomplete
+<h2>Hello World</h2>
+
+3	Inform with the Paragraph Element Incomplete
+<p>Hello Paragraph</p>
+
+4	Uncomment HTML Incomplete
+5	Comment out HTML Incomplete
+You can start a comment with <!-- and end a comment with -->
+
+6	Fill in the Blank with Placeholder Text Incomplete
+7	Delete HTML Elements Incomplete
+
+8	Change the Color of Text Incomplete
+<h2 style="color: blue">CatPhotoApp</h2> ---give h2 element an inline style attribute ---
+
+9	Use CSS Selectors to Style Elements Incomplete
+<style> h2 {color: red;} </style> ---add style to an element by using CSS (Cascading Style Sheets) - CSS style element---
+
+10	Use a CSS Class to Style an Element Incomplete
+---Classes are reusable styles that can be added to HTML elements--- <style> .blue-text { color: blue; } </style>
+---apply a class to an HTML element like this--- <h2 class="blue-text">CatPhotoApp</h2>
+
+11	Style Multiple Elements with a CSS Class Incomplete
+--- CSS class selectors require a period at the beginning like this: .blue-text { color: blue; }
+--- class declarations don't use a period, like this: <h2 class="blue-text">CatPhotoApp</h2>
+
+12	Change the Font Size of an Element Incomplete
+---controlled by the font-size CSS property--- h1 { font-size: 30px; }
+
+13	Set the Font Family of an Element Incomplete
+---controlled by the font-family CSS property--- h2 { font-family: Sans-serif; }
+
+14	Import a Google Font Incomplete
+---make a call to Google to grab the Lobster font and load it into your HTML---
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+15	Specify How Fonts Should Degrade Incomplete
+---When one font isn't available, you can tell the browser to "degrade" to another font---
+p { font-family: Helvetica, Sans-Serif; }
+
+16	Add Images to your Website Incomplete
+---You can add images to your website by using the img element, point to a specific image's URL using the src attribute---
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
+
+17	Size your Images Incomplete
+---CSS has a property called width that controls an element's width. use px (pixels)---
+CSS class selector - <style> .larger-image { width: 500px; } </style>
+
+18	Add Borders Around your Elements Incomplete
+.thick-green-border { border-color: green; border-width: 10px; border-style: solid; }
+<img class="thick-green-border">
+
+19	Add Rounded Corners with a Border Radius Incomplete
+  border-radius: 10px;
+
+20	Make Circular Images with a Border Radius Incomplete
+---perfectly circular--- border-radius: 50%;
+
+21	Link to External Pages with Anchor Elements Incomplete
+
+
+22	Nest an Anchor Element within a Paragraph Incomplete
+23	Make Dead Links using the Hash Symbol Incomplete
+24	Turn an Image into a Link Incomplete
+25	Create a Bulleted Unordered List Incomplete
+26	Create an Ordered List Incomplete
+27	Create a Text Field Incomplete
+28	Add Placeholder Text to a Text Field Incomplete
+29	Create a Form Element Incomplete
+30	Add a Submit Button to a Form Incomplete
+31	Use HTML5 to Require a Field Incomplete
+32	Create a Set of Radio Buttons Incomplete
+33	Create a Set of Checkboxes Incomplete
+34	Check Radio Buttons and Checkboxes by Default Incomplete
+35	Nest Many Elements within a Single Div Element Incomplete
+36	Give a Background Color to a Div Element Incomplete
+37	Set the ID of an Element Incomplete
+38	Use an ID Attribute to Style an Element Incomplete
+39	Adjusting the Padding of an Element Incomplete
+40	Adjust the Margin of an Element Incomplete
+41	Add a Negative Margin to an Element Incomplete
+42	Add Different Padding to Each Side of an Element Incomplete
+43	Add Different Margins to Each Side of an Element Incomplete
+44	Use Clockwise Notation to Specify the Padding of an Element Incomplete
+45	Use Clockwise Notation to Specify the Margin of an Element Incomplete
+46	Style the HTML Body Element Incomplete
+47	Inherit Styles from the Body Element Incomplete
+48	Prioritize One Style Over Another Incomplete
+49	Override Styles in Subsequent CSS Incomplete
+50	Override Class Declarations by Styling ID Attributes Incomplete
+
+51	Override Class Declarations with Inline Styles Incomplete
+<h1 style="color: green"> ---Inline Style---
+
+52	Override All Other Styles by using Important Incomplete
+color: red !important; ---!important keyboard---
+
+53	Use Hex Code for Specific Colors Incomplete
+body { color: #000000; } ---Hexadecimals (or hex)---
+
+54	Use Hex Code to Mix Colors Incomplete
+Dodger Blue #2998E4 / Green #00FF00 / Orange #FFA500 / Red #FF0000
+
+55	Use Abbreviated Hex Code Incomplete
+Cyan #0FF / Green #0F0 / Red #F00 / Fuchsia #F0F
+
+56	Use RGB values to Color Elements Incomplete
+body { background-color: rgb(0, 0, 0); }
+
+57	Use RGB to Mix Colors
+Blue rgb(0, 0, 255) / Red rgb(255, 0, 0) / Orchid rgb(218, 112, 214) / Sienna rgb(160, 82, 45)
